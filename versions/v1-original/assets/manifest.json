@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "coordinateSystem": "viewer: +x right, +y down",
+  "canvas": [
+    640,
+    800
+  ],
+  "pivot": [
+    320,
+    752
+  ],
+  "frames": [
+    {
+      "id": "center",
+      "file": "head-center.png",
+      "direction": [
+        0,
+        0
+      ],
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        1100,
+        500,
+        2200,
+        1900
+      ],
+      "sourceAnchor": [
+        1670,
+        1785
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "up",
+      "file": "head-up.png",
+      "direction": [
+        0,
+        -1
+      ],
+      "source": "IMG_4878.HEIC",
+      "sourceCrop": [
+        1200,
+        500,
+        2350,
+        1900
+      ],
+      "sourceAnchor": [
+        1800,
+        1775
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "upper-left",
+      "file": "head-upper-left.png",
+      "direction": [
+        -1,
+        -1
+      ],
+      "source": "IMG_4880.HEIC",
+      "sourceCrop": [
+        1100,
+        500,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1650,
+        1775
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "left",
+      "file": "head-left.png",
+      "direction": [
+        -1,
+        0
+      ],
+      "source": "IMG_4883.HEIC",
+      "sourceCrop": [
+        1200,
+        350,
+        2350,
+        1850
+      ],
+      "sourceAnchor": [
+        1800,
+        1740
+      ],
+      "scale": 0.6,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "lower-left",
+      "file": "head-lower-left.png",
+      "direction": [
+        -1,
+        1
+      ],
+      "source": "IMG_4887.HEIC",
+      "sourceCrop": [
+        1000,
+        400,
+        2200,
+        1900
+      ],
+      "sourceAnchor": [
+        1560,
+        1810
+      ],
+      "scale": 0.6,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "down",
+      "file": "head-down.png",
+      "direction": [
+        0,
+        1
+      ],
+      "source": "IMG_4888.HEIC",
+      "sourceCrop": [
+        950,
+        350,
+        2200,
+        1950
+      ],
+      "sourceAnchor": [
+        1510,
+        1845
+      ],
+      "scale": 0.58,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "lower-right",
+      "file": "head-lower-right.png",
+      "direction": [
+        1,
+        1
+      ],
+      "source": "IMG_4889.HEIC",
+      "sourceCrop": [
+        950,
+        400,
+        2200,
+        1950
+      ],
+      "sourceAnchor": [
+        1510,
+        1810
+      ],
+      "scale": 0.62,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "right",
+      "file": "head-right.png",
+      "direction": [
+        1,
+        0
+      ],
+      "source": "IMG_4890.HEIC",
+      "sourceCrop": [
+        1050,
+        450,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1540,
+        1805
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    },
+    {
+      "id": "upper-right",
+      "file": "head-upper-right.png",
+      "direction": [
+        1,
+        -1
+      ],
+      "source": "IMG_4893.HEIC",
+      "sourceCrop": [
+        1000,
+        450,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1520,
+        1780
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ]
+    }
+  ],
+  "hands": [
+    {
+      "id": "hand-left",
+      "file": "hand-left.png",
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        350,
+        2150,
+        1150,
+        2960
+      ],
+      "canvas": [
+        560,
+        545
+      ],
+      "side": "viewer-left"
+    },
+    {
+      "id": "hand-right",
+      "file": "hand-right.png",
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        2130,
+        2130,
+        3010,
+        2910
+      ],
+      "canvas": [
+        560,
+        492
+      ],
+      "side": "viewer-right"
+    }
+  ]
+}

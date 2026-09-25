@@ -1,0 +1,15 @@
+.tone-controls { border:1px solid var(--line); border-radius:14px; max-width:520px; margin:22px auto 0; padding:16px 20px; }
+.tone-controls legend { padding:0 8px; font-size:9px; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); }
+.tone-fields { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:center; gap:16px 20px; }
+.tone-color-field { text-align:left; min-width:0; }
+.tone-color-field>span { display:block; margin-bottom:7px; font-size:10px; color:var(--muted); }
+.tone-color-inputs { display:flex; align-items:center; gap:8px; }
+.tone-color-inputs input[type="color"] { width:32px; height:32px; padding:2px; background:transparent; border:1px solid var(--line); border-radius:6px; cursor:pointer; }
+.tone-color-inputs input[type="text"] { width:90px; height:32px; padding:6px; border:1px solid var(--line); border-radius:6px; color:var(--ink); background:var(--paper); font:11px/1.2 "Courier New",monospace; }
+.tone-color-inputs input:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.tone-color-inputs input[aria-invalid="true"] { border-color:var(--accent); }
+.tone-color-field small { display:block; margin-top:5px; color:var(--accent); font-size:10px; }
+.tone-actions { display:flex; flex-wrap:wrap; gap:8px; align-self:center; justify-content:center; }
+.tone-actions button { border:1px solid var(--line); border-radius:16px; background:transparent; color:var(--ink); cursor:pointer; padding:7px 10px; font-size:10px; }
+.tone-actions button:hover { border-color:var(--accent); }
+.tone-ramp { height:6px; margin-top:16px; border-radius:4px; }

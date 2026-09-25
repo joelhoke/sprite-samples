@@ -1,0 +1,3804 @@
+{
+  "version": 3,
+  "cutout": "jaw-following",
+  "edgeFeatherPx": {
+    "head": 3.0,
+    "hand": 2.6
+  },
+  "coordinateSystem": "viewer: +x right, +y down",
+  "canvas": [
+    640,
+    800
+  ],
+  "pivot": [
+    320,
+    752
+  ],
+  "frames": [
+    {
+      "id": "center",
+      "file": "head-center.png",
+      "direction": [
+        0,
+        0
+      ],
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        1100,
+        500,
+        2200,
+        1900
+      ],
+      "sourceAnchor": [
+        1670,
+        1785
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          525
+        ],
+        [
+          143,
+          612
+        ],
+        [
+          171,
+          653
+        ],
+        [
+          207,
+          682
+        ],
+        [
+          250,
+          703
+        ],
+        [
+          286,
+          710
+        ],
+        [
+          347,
+          710
+        ],
+        [
+          391,
+          697
+        ],
+        [
+          435,
+          670
+        ],
+        [
+          468,
+          633
+        ],
+        [
+          495,
+          580
+        ],
+        [
+          640,
+          510
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "up",
+      "file": "head-up.png",
+      "direction": [
+        0,
+        -1
+      ],
+      "source": "IMG_4878.HEIC",
+      "sourceCrop": [
+        1200,
+        500,
+        2350,
+        1900
+      ],
+      "sourceAnchor": [
+        1800,
+        1775
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          505
+        ],
+        [
+          153,
+          590
+        ],
+        [
+          180,
+          616
+        ],
+        [
+          219,
+          641
+        ],
+        [
+          259,
+          655
+        ],
+        [
+          290,
+          660
+        ],
+        [
+          339,
+          659
+        ],
+        [
+          386,
+          645
+        ],
+        [
+          431,
+          620
+        ],
+        [
+          473,
+          575
+        ],
+        [
+          640,
+          490
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "upper-left",
+      "file": "head-upper-left.png",
+      "direction": [
+        -1,
+        -1
+      ],
+      "source": "IMG_4880.HEIC",
+      "sourceCrop": [
+        1100,
+        500,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1650,
+        1775
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          520
+        ],
+        [
+          165,
+          604
+        ],
+        [
+          184,
+          634
+        ],
+        [
+          218,
+          658
+        ],
+        [
+          253,
+          672
+        ],
+        [
+          282,
+          675
+        ],
+        [
+          322,
+          670
+        ],
+        [
+          367,
+          647
+        ],
+        [
+          404,
+          621
+        ],
+        [
+          442,
+          589
+        ],
+        [
+          478,
+          549
+        ],
+        [
+          640,
+          475
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "left",
+      "file": "head-left.png",
+      "direction": [
+        -1,
+        0
+      ],
+      "source": "IMG_4883.HEIC",
+      "sourceCrop": [
+        1200,
+        350,
+        2350,
+        1850
+      ],
+      "sourceAnchor": [
+        1800,
+        1740
+      ],
+      "scale": 0.6,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          590
+        ],
+        [
+          133,
+          659
+        ],
+        [
+          155,
+          682
+        ],
+        [
+          185,
+          691
+        ],
+        [
+          224,
+          704
+        ],
+        [
+          259,
+          705
+        ],
+        [
+          303,
+          687
+        ],
+        [
+          351,
+          661
+        ],
+        [
+          395,
+          625
+        ],
+        [
+          429,
+          585
+        ],
+        [
+          465,
+          520
+        ],
+        [
+          640,
+          450
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "lower-left",
+      "file": "head-lower-left.png",
+      "direction": [
+        -1,
+        1
+      ],
+      "source": "IMG_4887.HEIC",
+      "sourceCrop": [
+        1000,
+        400,
+        2200,
+        1900
+      ],
+      "sourceAnchor": [
+        1560,
+        1810
+      ],
+      "scale": 0.6,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          555
+        ],
+        [
+          153,
+          658
+        ],
+        [
+          180,
+          688
+        ],
+        [
+          215,
+          708
+        ],
+        [
+          258,
+          724
+        ],
+        [
+          290,
+          729
+        ],
+        [
+          324,
+          722
+        ],
+        [
+          358,
+          703
+        ],
+        [
+          398,
+          677
+        ],
+        [
+          429,
+          641
+        ],
+        [
+          640,
+          500
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "down",
+      "file": "head-down.png",
+      "direction": [
+        0,
+        1
+      ],
+      "source": "IMG_4888.HEIC",
+      "sourceCrop": [
+        950,
+        350,
+        2200,
+        1950
+      ],
+      "sourceAnchor": [
+        1510,
+        1845
+      ],
+      "scale": 0.58,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          515
+        ],
+        [
+          205,
+          646
+        ],
+        [
+          241,
+          702
+        ],
+        [
+          280,
+          728
+        ],
+        [
+          318,
+          740
+        ],
+        [
+          351,
+          741
+        ],
+        [
+          388,
+          733
+        ],
+        [
+          424,
+          714
+        ],
+        [
+          463,
+          680
+        ],
+        [
+          494,
+          633
+        ],
+        [
+          640,
+          505
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "lower-right",
+      "file": "head-lower-right.png",
+      "direction": [
+        1,
+        1
+      ],
+      "source": "IMG_4889.HEIC",
+      "sourceCrop": [
+        950,
+        400,
+        2200,
+        1950
+      ],
+      "sourceAnchor": [
+        1510,
+        1810
+      ],
+      "scale": 0.62,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          460
+        ],
+        [
+          197,
+          611
+        ],
+        [
+          225,
+          660
+        ],
+        [
+          266,
+          697
+        ],
+        [
+          309,
+          723
+        ],
+        [
+          348,
+          737
+        ],
+        [
+          387,
+          739
+        ],
+        [
+          425,
+          730
+        ],
+        [
+          460,
+          708
+        ],
+        [
+          491,
+          679
+        ],
+        [
+          517,
+          641
+        ],
+        [
+          640,
+          550
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "right",
+      "file": "head-right.png",
+      "direction": [
+        1,
+        0
+      ],
+      "source": "IMG_4890.HEIC",
+      "sourceCrop": [
+        1050,
+        450,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1540,
+        1805
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          440
+        ],
+        [
+          172,
+          586
+        ],
+        [
+          208,
+          636
+        ],
+        [
+          250,
+          672
+        ],
+        [
+          294,
+          698
+        ],
+        [
+          329,
+          708
+        ],
+        [
+          366,
+          708
+        ],
+        [
+          401,
+          694
+        ],
+        [
+          434,
+          670
+        ],
+        [
+          461,
+          633
+        ],
+        [
+          640,
+          520
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    },
+    {
+      "id": "upper-right",
+      "file": "head-upper-right.png",
+      "direction": [
+        1,
+        -1
+      ],
+      "source": "IMG_4893.HEIC",
+      "sourceCrop": [
+        1000,
+        450,
+        2250,
+        1900
+      ],
+      "sourceAnchor": [
+        1520,
+        1780
+      ],
+      "scale": 0.64,
+      "canvas": [
+        640,
+        800
+      ],
+      "pivot": [
+        320,
+        752
+      ],
+      "jawBoundary": [
+        [
+          0,
+          420
+        ],
+        [
+          176,
+          559
+        ],
+        [
+          209,
+          602
+        ],
+        [
+          251,
+          632
+        ],
+        [
+          299,
+          652
+        ],
+        [
+          336,
+          663
+        ],
+        [
+          368,
+          663
+        ],
+        [
+          404,
+          651
+        ],
+        [
+          442,
+          632
+        ],
+        [
+          476,
+          601
+        ],
+        [
+          508,
+          556
+        ],
+        [
+          640,
+          460
+        ]
+      ],
+      "cutout": "head-only",
+      "featherPx": 3.0
+    }
+  ],
+  "hands": [
+    {
+      "id": "hand-left",
+      "file": "hand-left.png",
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        350,
+        2150,
+        1150,
+        2960
+      ],
+      "canvas": [
+        560,
+        545
+      ],
+      "side": "viewer-left",
+      "featherPx": 2.6
+    },
+    {
+      "id": "hand-right",
+      "file": "hand-right.png",
+      "source": "IMG_4877.HEIC",
+      "sourceCrop": [
+        2130,
+        2130,
+        3010,
+        2910
+      ],
+      "canvas": [
+        560,
+        492
+      ],
+      "side": "viewer-right",
+      "featherPx": 2.6
+    }
+  ],
+  "alternateHands": [
+    {
+      "id": "hand-left-flex",
+      "file": "hand-left-flex.png",
+      "source": "IMG_4900.HEIC",
+      "sourceCrop": [
+        760,
+        1750,
+        1385,
+        2460
+      ],
+      "canvas": [
+        560,
+        545
+      ],
+      "scale": 0.7090990237623205,
+      "offset": [
+        162,
+        71
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ],
+      "kind": "photograph"
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "hand-right-flex.png",
+      "source": "IMG_4900.HEIC",
+      "sourceCrop": [
+        1386,
+        1690,
+        1990,
+        2450
+      ],
+      "canvas": [
+        560,
+        492
+      ],
+      "scale": 0.6873304047233442,
+      "offset": [
+        6,
+        23
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ],
+      "kind": "photograph"
+    }
+  ],
+  "experimentalFrames": [
+    {
+      "id": "inner-left",
+      "file": "experimental/head-inner-left.png",
+      "kind": "generated",
+      "references": [
+        "IMG_4877.HEIC",
+        "IMG_4883.HEIC"
+      ],
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        0,
+        42,
+        1092,
+        1378
+      ],
+      "scale": 0.4940119760479042,
+      "offset": [
+        50,
+        55
+      ],
+      "jawBoundary": [
+        [
+          0,
+          450
+        ],
+        [
+          166,
+          580
+        ],
+        [
+          215,
+          642
+        ],
+        [
+          280,
+          670
+        ],
+        [
+          346,
+          651
+        ],
+        [
+          410,
+          593
+        ],
+        [
+          455,
+          535
+        ],
+        [
+          640,
+          420
+        ]
+      ],
+      "experimental": true
+    },
+    {
+      "id": "inner-right",
+      "file": "experimental/head-inner-right.png",
+      "kind": "generated",
+      "references": [
+        "IMG_4877.HEIC",
+        "IMG_4890.HEIC"
+      ],
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        0,
+        37,
+        946,
+        1378
+      ],
+      "scale": 0.49217002237136465,
+      "offset": [
+        87,
+        55
+      ],
+      "jawBoundary": [
+        [
+          0,
+          420
+        ],
+        [
+          185,
+          535
+        ],
+        [
+          230,
+          593
+        ],
+        [
+          294,
+          651
+        ],
+        [
+          360,
+          670
+        ],
+        [
+          425,
+          642
+        ],
+        [
+          474,
+          580
+        ],
+        [
+          640,
+          450
+        ]
+      ],
+      "experimental": true
+    }
+  ],
+  "defaultMode": "photos",
+  "aiFrames": [
+    {
+      "id": "upper-left",
+      "file": "ai/head-upper-left.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/upper-left.png",
+      "sourceBounds": [
+        117,
+        82,
+        1030,
+        1230
+      ],
+      "scale": 0.5695509309967142,
+      "offset": [
+        60,
+        66
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "up",
+      "file": "ai/head-up.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/up.png",
+      "sourceBounds": [
+        174,
+        84,
+        962,
+        1226
+      ],
+      "scale": 0.5779334500875657,
+      "offset": [
+        92,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "upper-right",
+      "file": "ai/head-upper-right.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/upper-right.png",
+      "sourceBounds": [
+        115,
+        71,
+        986,
+        1242
+      ],
+      "scale": 0.5636208368915457,
+      "offset": [
+        74,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "left",
+      "file": "ai/head-left.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/left.png",
+      "sourceBounds": [
+        147,
+        75,
+        1020,
+        1234
+      ],
+      "scale": 0.5694564279551337,
+      "offset": [
+        71,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "center",
+      "file": "ai/head-center.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/center.png",
+      "sourceBounds": [
+        152,
+        49,
+        969,
+        1289
+      ],
+      "scale": 0.532258064516129,
+      "offset": [
+        102,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "right",
+      "file": "ai/head-right.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/right.png",
+      "sourceBounds": [
+        144,
+        68,
+        978,
+        1246
+      ],
+      "scale": 0.5602716468590832,
+      "offset": [
+        86,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "lower-left",
+      "file": "ai/head-lower-left.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/lower-left.png",
+      "sourceBounds": [
+        157,
+        46,
+        992,
+        1281
+      ],
+      "scale": 0.5344129554655871,
+      "offset": [
+        97,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "down",
+      "file": "ai/head-down.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/down.png",
+      "sourceBounds": [
+        175,
+        36,
+        952,
+        1301
+      ],
+      "scale": 0.5217391304347826,
+      "offset": [
+        117,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    },
+    {
+      "id": "lower-right",
+      "file": "ai/head-lower-right.png",
+      "kind": "generated",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/full-heads/lower-right.png",
+      "sourceBounds": [
+        168,
+        69,
+        957,
+        1293
+      ],
+      "scale": 0.5392156862745098,
+      "offset": [
+        107,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 2
+    }
+  ],
+  "modes": {
+    "photos": {
+      "headFrames": "frames",
+      "hands": "photographic"
+    },
+    "generated": {
+      "headFrames": "aiFrames",
+      "hands": "aiHands",
+      "saturation": 1.15,
+      "contrast": 1.25
+    },
+    "oil": {
+      "headFrames": "oilFrames",
+      "hands": "oilHands"
+    },
+    "ascii": {
+      "headFrames": "asciiFrames",
+      "hands": "asciiHands",
+      "file": "ascii/frames.json",
+      "rendering": "monochrome text in currentColor",
+      "sourceMode": "generated"
+    },
+    "blue": {
+      "headFrames": "aiFrames",
+      "hands": "aiHands",
+      "sourceMode": "generated",
+      "tint": "#3B9EC8",
+      "rendering": "sRGB luminance mapped black \u2192 #3B9EC8 \u2192 white; alpha unchanged",
+      "component": "BlueTone.tsx",
+      "contrast": 1.35
+    },
+    "monotone": {
+      "headFrames": "aiFrames",
+      "hands": "aiHands",
+      "sourceMode": "generated",
+      "tint": "#3B9EC8",
+      "rendering": "sRGB luminance mapped black \u2192 #3B9EC8 \u2192 white; alpha unchanged",
+      "component": "BlueTone.tsx",
+      "contrast": 1.35,
+      "customizable": true
+    },
+    "duotone": {
+      "headFrames": "aiFrames",
+      "hands": "aiHands",
+      "sourceMode": "generated",
+      "duotoneShadow": "#4D0038",
+      "duotoneHighlight": "#3B9EC8",
+      "contrast": 1.35,
+      "customizable": true,
+      "rendering": "sRGB luminance mapped between shadow and highlight colors; alpha unchanged",
+      "component": "BlueTone.tsx"
+    },
+    "watercolor": {
+      "headFrames": "watercolorFrames",
+      "hands": "watercolorHands",
+      "opacity": 0.96
+    },
+    "pencil": {
+      "headFrames": "pencilFrames",
+      "hands": "pencilHands",
+      "opacity": 1
+    }
+  },
+  "aiHands": [
+    {
+      "id": "hand-left",
+      "file": "ai/hand-left.png",
+      "kind": "generated",
+      "style": "photorealistic",
+      "pose": "open",
+      "side": "viewer-left",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/realistic-hands/hand-left.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        11,
+        14,
+        1234,
+        1209
+      ],
+      "scale": 0.4119092619974586,
+      "offset": [
+        6,
+        50
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right",
+      "file": "ai/hand-right.png",
+      "kind": "generated",
+      "style": "photorealistic",
+      "pose": "open",
+      "side": "viewer-right",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/realistic-hands/hand-right.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        9,
+        4,
+        1327,
+        1128
+      ],
+      "scale": 0.409475950555688,
+      "offset": [
+        6,
+        29
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    },
+    {
+      "id": "hand-left-flex",
+      "file": "ai/hand-left-flex.png",
+      "kind": "generated",
+      "style": "photorealistic",
+      "pose": "flex",
+      "side": "viewer-left",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/realistic-hands/hand-left-flex.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        260,
+        62,
+        1218,
+        1221
+      ],
+      "scale": 0.4015013460887913,
+      "offset": [
+        169,
+        77
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "ai/hand-right-flex.png",
+      "kind": "generated",
+      "style": "photorealistic",
+      "pose": "flex",
+      "side": "viewer-right",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/realistic-hands/hand-right-flex.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        89,
+        29,
+        1037,
+        1157
+      ],
+      "scale": 0.3870481010243842,
+      "offset": [
+        6,
+        52
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    }
+  ],
+  "oilFrames": [
+    {
+      "id": "upper-left",
+      "file": "oil/head-upper-left.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/upper-left.png",
+      "sourceBounds": [
+        90,
+        81,
+        1090,
+        1279
+      ],
+      "scale": 0.52,
+      "offset": [
+        60,
+        97
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "up",
+      "file": "oil/head-up.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/up.png",
+      "sourceBounds": [
+        129,
+        78,
+        1012,
+        1318
+      ],
+      "scale": 0.532258064516129,
+      "offset": [
+        85,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "upper-right",
+      "file": "oil/head-upper-right.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/upper-right.png",
+      "sourceBounds": [
+        101,
+        64,
+        1026,
+        1269
+      ],
+      "scale": 0.5477178423236515,
+      "offset": [
+        66,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "left",
+      "file": "oil/head-left.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/left.png",
+      "sourceBounds": [
+        108,
+        82,
+        1072,
+        1270
+      ],
+      "scale": 0.5394190871369294,
+      "offset": [
+        60,
+        79
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "center",
+      "file": "oil/head-center.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/center.png",
+      "sourceBounds": [
+        111,
+        27,
+        1013,
+        1350
+      ],
+      "scale": 0.4988662131519274,
+      "offset": [
+        95,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "right",
+      "file": "oil/head-right.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/right.png",
+      "sourceBounds": [
+        104,
+        56,
+        1024,
+        1293
+      ],
+      "scale": 0.5335489086499596,
+      "offset": [
+        74,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "lower-left",
+      "file": "oil/head-lower-left.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/lower-left.png",
+      "sourceBounds": [
+        110,
+        29,
+        1055,
+        1342
+      ],
+      "scale": 0.5026656511805027,
+      "offset": [
+        82,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "down",
+      "file": "oil/head-down.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/down.png",
+      "sourceBounds": [
+        146,
+        24,
+        978,
+        1339
+      ],
+      "scale": 0.5019011406844106,
+      "offset": [
+        111,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    },
+    {
+      "id": "lower-right",
+      "file": "oil/head-lower-right.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/oil-heads/lower-right.png",
+      "sourceBounds": [
+        148,
+        34,
+        995,
+        1328
+      ],
+      "scale": 0.5100463678516228,
+      "offset": [
+        104,
+        60
+      ],
+      "alignment": "centered silhouette, chin baseline y=720",
+      "featherPx": 1.5
+    }
+  ],
+  "oilHands": [
+    {
+      "id": "hand-left",
+      "file": "oil/hand-left.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "pose": "open",
+      "side": "viewer-left",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/oil-hands/hand-left.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        54,
+        10,
+        1228,
+        1202
+      ],
+      "scale": 0.4237420438667037,
+      "offset": [
+        6,
+        37
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right",
+      "file": "oil/hand-right.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "pose": "open",
+      "side": "viewer-right",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/oil-hands/hand-right.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        27,
+        21,
+        1240,
+        1141
+      ],
+      "scale": 0.43392857142857144,
+      "offset": [
+        16,
+        3
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    },
+    {
+      "id": "hand-left-flex",
+      "file": "oil/hand-left-flex.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "pose": "flex",
+      "side": "viewer-left",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/oil-hands/hand-left-flex.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        256,
+        50,
+        1234,
+        1205
+      ],
+      "scale": 0.4019437307560142,
+      "offset": [
+        161,
+        78
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "oil/hand-right-flex.png",
+      "kind": "generated",
+      "style": "impasto oil painting",
+      "pose": "flex",
+      "side": "viewer-right",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/oil-hands/hand-right-flex.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        92,
+        10,
+        1121,
+        1248
+      ],
+      "scale": 0.36451488731649434,
+      "offset": [
+        6,
+        38
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    }
+  ],
+  "asciiFrames": [
+    {
+      "id": "head-upper-left",
+      "file": "ascii/head-upper-left.txt",
+      "kind": "ascii",
+      "source": "ai/head-upper-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-up",
+      "file": "ascii/head-up.txt",
+      "kind": "ascii",
+      "source": "ai/head-up.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-upper-right",
+      "file": "ascii/head-upper-right.txt",
+      "kind": "ascii",
+      "source": "ai/head-upper-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-left",
+      "file": "ascii/head-left.txt",
+      "kind": "ascii",
+      "source": "ai/head-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-center",
+      "file": "ascii/head-center.txt",
+      "kind": "ascii",
+      "source": "ai/head-center.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-right",
+      "file": "ascii/head-right.txt",
+      "kind": "ascii",
+      "source": "ai/head-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-lower-left",
+      "file": "ascii/head-lower-left.txt",
+      "kind": "ascii",
+      "source": "ai/head-lower-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-down",
+      "file": "ascii/head-down.txt",
+      "kind": "ascii",
+      "source": "ai/head-down.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "head-lower-right",
+      "file": "ascii/head-lower-right.txt",
+      "kind": "ascii",
+      "source": "ai/head-lower-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "columns": 64,
+      "rows": 48,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    }
+  ],
+  "asciiHands": [
+    {
+      "id": "hand-left",
+      "file": "ascii/hand-left.txt",
+      "kind": "ascii",
+      "source": "ai/hand-left.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "columns": 44,
+      "rows": 26,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "hand-right",
+      "file": "ascii/hand-right.txt",
+      "kind": "ascii",
+      "source": "ai/hand-right.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "columns": 44,
+      "rows": 23,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "hand-left-flex",
+      "file": "ascii/hand-left-flex.txt",
+      "kind": "ascii",
+      "source": "ai/hand-left-flex.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "columns": 44,
+      "rows": 26,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "ascii/hand-right-flex.txt",
+      "kind": "ascii",
+      "source": "ai/hand-right-flex.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "columns": 44,
+      "rows": 23,
+      "alignment": "inherits source canvas and anchors; whitespace preserves transparency"
+    }
+  ],
+  "watercolorFrames": [
+    {
+      "id": "upper-left",
+      "file": "watercolor/head-upper-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/upper-left.png",
+      "sourceBounds": [
+        74,
+        81,
+        1078,
+        1307
+      ],
+      "scale": 0.5179282868525896,
+      "offset": [
+        60,
+        85
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "up",
+      "file": "watercolor/head-up.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/up.png",
+      "sourceBounds": [
+        104,
+        40,
+        1030,
+        1318
+      ],
+      "scale": 0.5164319248826291,
+      "offset": [
+        81,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-right",
+      "file": "watercolor/head-upper-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/upper-right.png",
+      "sourceBounds": [
+        76,
+        55,
+        1054,
+        1281
+      ],
+      "scale": 0.5316973415132924,
+      "offset": [
+        60,
+        68
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "left",
+      "file": "watercolor/head-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/left.png",
+      "sourceBounds": [
+        127,
+        72,
+        1096,
+        1294
+      ],
+      "scale": 0.5366357069143447,
+      "offset": [
+        60,
+        64
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "center",
+      "file": "watercolor/head-center.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/center.png",
+      "sourceBounds": [
+        123,
+        35,
+        1010,
+        1313
+      ],
+      "scale": 0.5164319248826291,
+      "offset": [
+        91,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "right",
+      "file": "watercolor/head-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/right.png",
+      "sourceBounds": [
+        92,
+        37,
+        1033,
+        1303
+      ],
+      "scale": 0.5213270142180095,
+      "offset": [
+        74,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-left",
+      "file": "watercolor/head-lower-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/lower-left.png",
+      "sourceBounds": [
+        112,
+        9,
+        1085,
+        1352
+      ],
+      "scale": 0.4914370811615786,
+      "offset": [
+        81,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "down",
+      "file": "watercolor/head-down.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/down.png",
+      "sourceBounds": [
+        153,
+        48,
+        999,
+        1327
+      ],
+      "scale": 0.5160281469898358,
+      "offset": [
+        101,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-right",
+      "file": "watercolor/head-lower-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_4877.HEIC",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/watercolor-heads/lower-right.png",
+      "sourceBounds": [
+        125,
+        50,
+        1002,
+        1345
+      ],
+      "scale": 0.5096525096525096,
+      "offset": [
+        96,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    }
+  ],
+  "watercolorHands": [
+    {
+      "id": "hand-left",
+      "file": "watercolor/hand-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "pose": "open",
+      "side": "viewer-left",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/watercolor-hands/hand-left.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        21,
+        30,
+        1211,
+        1220
+      ],
+      "scale": 0.4192078332629518,
+      "offset": [
+        6,
+        43
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right",
+      "file": "watercolor/hand-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "pose": "open",
+      "side": "viewer-right",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/watercolor-hands/hand-right.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        9,
+        0,
+        1330,
+        1141
+      ],
+      "scale": 0.407882859078942,
+      "offset": [
+        6,
+        24
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    },
+    {
+      "id": "hand-left-flex",
+      "file": "watercolor/hand-left-flex.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "pose": "flex",
+      "side": "viewer-left",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/watercolor-hands/hand-left-flex.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        319,
+        20,
+        1235,
+        1147
+      ],
+      "scale": 0.42953259981562597,
+      "offset": [
+        161,
+        58
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "watercolor/hand-right-flex.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "pose": "flex",
+      "side": "viewer-right",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/watercolor-hands/hand-right-flex.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        152,
+        47,
+        1031,
+        1125
+      ],
+      "scale": 0.42662890759880845,
+      "offset": [
+        6,
+        29
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    }
+  ],
+  "pencilFrames": [
+    {
+      "id": "upper-left",
+      "file": "pencil/head-upper-left.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/upper-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/upper-left.png",
+      "sourceBounds": [
+        61,
+        66,
+        1104,
+        1328
+      ],
+      "scale": 0.49856184084372,
+      "offset": [
+        60,
+        91
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "up",
+      "file": "pencil/head-up.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/up.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/up.png",
+      "sourceBounds": [
+        115,
+        50,
+        1019,
+        1310
+      ],
+      "scale": 0.5238095238095238,
+      "offset": [
+        83,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-right",
+      "file": "pencil/head-upper-right.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/upper-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/upper-right.png",
+      "sourceBounds": [
+        106,
+        59,
+        1044,
+        1289
+      ],
+      "scale": 0.5365853658536586,
+      "offset": [
+        68,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "left",
+      "file": "pencil/head-left.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/left.png",
+      "sourceBounds": [
+        102,
+        47,
+        1088,
+        1323
+      ],
+      "scale": 0.5172413793103449,
+      "offset": [
+        65,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "center",
+      "file": "pencil/head-center.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/center.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/center.png",
+      "sourceBounds": [
+        140,
+        33,
+        983,
+        1301
+      ],
+      "scale": 0.5205047318611987,
+      "offset": [
+        100,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "right",
+      "file": "pencil/head-right.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/right.png",
+      "sourceBounds": [
+        97,
+        35,
+        1030,
+        1335
+      ],
+      "scale": 0.5076923076923077,
+      "offset": [
+        83,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-left",
+      "file": "pencil/head-lower-left.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/lower-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/lower-left.png",
+      "sourceBounds": [
+        118,
+        0,
+        1077,
+        1348
+      ],
+      "scale": 0.4896142433234421,
+      "offset": [
+        85,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "down",
+      "file": "pencil/head-down.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/down.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/down.png",
+      "sourceBounds": [
+        151,
+        13,
+        999,
+        1351
+      ],
+      "scale": 0.49327354260089684,
+      "offset": [
+        111,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-right",
+      "file": "pencil/head-lower-right.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "reference": "work/generative/full-heads/lower-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "source": "work/generative/pencil-heads/lower-right.png",
+      "sourceBounds": [
+        130,
+        38,
+        1001,
+        1341
+      ],
+      "scale": 0.5065234075211051,
+      "offset": [
+        99,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    }
+  ],
+  "pencilHands": [
+    {
+      "id": "hand-left",
+      "file": "pencil/hand-left.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "pose": "open",
+      "side": "viewer-left",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/pencil-hands/hand-left.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        14,
+        28,
+        1226,
+        1198
+      ],
+      "scale": 0.4340695652173912,
+      "offset": [
+        6,
+        34
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right",
+      "file": "pencil/hand-right.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "pose": "open",
+      "side": "viewer-right",
+      "reference": "IMG_4877.HEIC",
+      "source": "work/generative/pencil-hands/hand-right.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        24,
+        8,
+        1323,
+        1139
+      ],
+      "scale": 0.4164863742038702,
+      "offset": [
+        6,
+        18
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    },
+    {
+      "id": "hand-left-flex",
+      "file": "pencil/hand-left-flex.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "pose": "flex",
+      "side": "viewer-left",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/pencil-hands/hand-left-flex.png",
+      "canvas": [
+        560,
+        545
+      ],
+      "sourceBounds": [
+        275,
+        75,
+        1200,
+        1211
+      ],
+      "scale": 0.42801114303354443,
+      "offset": [
+        158,
+        56
+      ],
+      "wristOrigin": [
+        0.49,
+        1
+      ]
+    },
+    {
+      "id": "hand-right-flex",
+      "file": "pencil/hand-right-flex.png",
+      "kind": "generated",
+      "style": "graphite pencil",
+      "pose": "flex",
+      "side": "viewer-right",
+      "reference": "IMG_4900.HEIC",
+      "source": "work/generative/pencil-hands/hand-right-flex.png",
+      "canvas": [
+        560,
+        492
+      ],
+      "sourceBounds": [
+        69,
+        51,
+        969,
+        1152
+      ],
+      "scale": 0.41367191175597157,
+      "offset": [
+        6,
+        34
+      ],
+      "wristOrigin": [
+        0.48,
+        1
+      ]
+    }
+  ],
+  "nowFrames": [
+    {
+      "id": "center",
+      "file": "now/head-center.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 56,
+      "timeSeconds": 2.3356666666666666,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        71,
+        76,
+        281,
+        399
+      ],
+      "scale": 2.043343653250774,
+      "offset": [
+        105,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          285
+        ],
+        [
+          75,
+          310
+        ],
+        [
+          94,
+          345
+        ],
+        [
+          116,
+          370
+        ],
+        [
+          144,
+          388
+        ],
+        [
+          170,
+          398
+        ],
+        [
+          194,
+          398
+        ],
+        [
+          219,
+          384
+        ],
+        [
+          242,
+          366
+        ],
+        [
+          260,
+          340
+        ],
+        [
+          282,
+          300
+        ],
+        [
+          440,
+          265
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "up",
+      "file": "now/head-up.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 80,
+      "timeSeconds": 3.3366666666666664,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        72,
+        82,
+        285,
+        383
+      ],
+      "scale": 2.1926910299003324,
+      "offset": [
+        86,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          270
+        ],
+        [
+          75,
+          300
+        ],
+        [
+          97,
+          327
+        ],
+        [
+          123,
+          353
+        ],
+        [
+          149,
+          371
+        ],
+        [
+          175,
+          382
+        ],
+        [
+          194,
+          382
+        ],
+        [
+          218,
+          370
+        ],
+        [
+          242,
+          349
+        ],
+        [
+          260,
+          320
+        ],
+        [
+          284,
+          275
+        ],
+        [
+          440,
+          240
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-right",
+      "file": "now/head-upper-right.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 100,
+      "timeSeconds": 4.170833333333333,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        64,
+        80,
+        274,
+        389
+      ],
+      "scale": 2.1359223300970873,
+      "offset": [
+        95,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          270
+        ],
+        [
+          79,
+          305
+        ],
+        [
+          102,
+          337
+        ],
+        [
+          127,
+          363
+        ],
+        [
+          154,
+          380
+        ],
+        [
+          181,
+          388
+        ],
+        [
+          201,
+          385
+        ],
+        [
+          224,
+          370
+        ],
+        [
+          246,
+          345
+        ],
+        [
+          264,
+          310
+        ],
+        [
+          283,
+          275
+        ],
+        [
+          440,
+          240
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "right",
+      "file": "now/head-right.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 108,
+      "timeSeconds": 4.5045,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        63,
+        76,
+        276,
+        391
+      ],
+      "scale": 2.0952380952380953,
+      "offset": [
+        97,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          270
+        ],
+        [
+          78,
+          302
+        ],
+        [
+          100,
+          331
+        ],
+        [
+          127,
+          356
+        ],
+        [
+          154,
+          375
+        ],
+        [
+          180,
+          389
+        ],
+        [
+          204,
+          390
+        ],
+        [
+          227,
+          377
+        ],
+        [
+          250,
+          355
+        ],
+        [
+          268,
+          321
+        ],
+        [
+          290,
+          275
+        ],
+        [
+          440,
+          240
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-right",
+      "file": "now/head-lower-right.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 120,
+      "timeSeconds": 5.005,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        65,
+        70,
+        280,
+        405
+      ],
+      "scale": 1.9701492537313432,
+      "offset": [
+        108,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          290
+        ],
+        [
+          78,
+          319
+        ],
+        [
+          99,
+          349
+        ],
+        [
+          124,
+          375
+        ],
+        [
+          153,
+          393
+        ],
+        [
+          184,
+          404
+        ],
+        [
+          204,
+          402
+        ],
+        [
+          229,
+          388
+        ],
+        [
+          250,
+          367
+        ],
+        [
+          270,
+          329
+        ],
+        [
+          290,
+          280
+        ],
+        [
+          440,
+          250
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "down",
+      "file": "now/head-down.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 130,
+      "timeSeconds": 5.422083333333333,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        65,
+        64,
+        277,
+        418
+      ],
+      "scale": 1.8644067796610169,
+      "offset": [
+        122,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          300
+        ],
+        [
+          78,
+          330
+        ],
+        [
+          99,
+          360
+        ],
+        [
+          121,
+          386
+        ],
+        [
+          149,
+          406
+        ],
+        [
+          179,
+          417
+        ],
+        [
+          198,
+          416
+        ],
+        [
+          222,
+          401
+        ],
+        [
+          244,
+          377
+        ],
+        [
+          265,
+          347
+        ],
+        [
+          282,
+          302
+        ],
+        [
+          440,
+          260
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-left",
+      "file": "now/head-lower-left.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 139,
+      "timeSeconds": 5.797458333333333,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        61,
+        61,
+        279,
+        424
+      ],
+      "scale": 1.8181818181818181,
+      "offset": [
+        122,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          315
+        ],
+        [
+          68,
+          345
+        ],
+        [
+          86,
+          375
+        ],
+        [
+          108,
+          401
+        ],
+        [
+          134,
+          418
+        ],
+        [
+          152,
+          423
+        ],
+        [
+          178,
+          416
+        ],
+        [
+          204,
+          397
+        ],
+        [
+          226,
+          372
+        ],
+        [
+          248,
+          339
+        ],
+        [
+          277,
+          300
+        ],
+        [
+          440,
+          250
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": true,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "left",
+      "file": "now/head-left.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 152,
+      "timeSeconds": 6.339666666666667,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        43,
+        65,
+        282,
+        423
+      ],
+      "scale": 1.8435754189944134,
+      "offset": [
+        99,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          316
+        ],
+        [
+          49,
+          342
+        ],
+        [
+          66,
+          372
+        ],
+        [
+          84,
+          399
+        ],
+        [
+          108,
+          415
+        ],
+        [
+          129,
+          422
+        ],
+        [
+          157,
+          413
+        ],
+        [
+          188,
+          393
+        ],
+        [
+          218,
+          371
+        ],
+        [
+          239,
+          337
+        ],
+        [
+          269,
+          286
+        ],
+        [
+          440,
+          240
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": true,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-left",
+      "file": "now/head-upper-left.png",
+      "kind": "photographic-video",
+      "source": "IMG_5003.mov",
+      "frameIndex": 157,
+      "timeSeconds": 6.548208333333333,
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceCrop": [
+        120,
+        480,
+        560,
+        960
+      ],
+      "sourceBounds": [
+        41,
+        65,
+        285,
+        411
+      ],
+      "scale": 1.907514450867052,
+      "offset": [
+        87,
+        60
+      ],
+      "jawBoundary": [
+        [
+          0,
+          287
+        ],
+        [
+          48,
+          322
+        ],
+        [
+          66,
+          355
+        ],
+        [
+          88,
+          382
+        ],
+        [
+          111,
+          401
+        ],
+        [
+          133,
+          410
+        ],
+        [
+          161,
+          402
+        ],
+        [
+          188,
+          384
+        ],
+        [
+          216,
+          362
+        ],
+        [
+          240,
+          331
+        ],
+        [
+          268,
+          280
+        ],
+        [
+          440,
+          230
+        ]
+      ],
+      "featherPx": 2.5,
+      "fabricExclusion": false,
+      "alignment": "centered silhouette, chin baseline y=720"
+    }
+  ],
+  "references": {
+    "then": {
+      "headFrames": "frames",
+      "styles": [
+        "photos",
+        "generated",
+        "monotone",
+        "duotone",
+        "oil",
+        "watercolor",
+        "pencil",
+        "ascii"
+      ]
+    },
+    "now": {
+      "headFrames": "nowFrames",
+      "hands": "hands",
+      "alternateHands": "alternateHands",
+      "source": "IMG_5003.mov",
+      "styleSets": {
+        "photos": {
+          "headFrames": "nowFrames",
+          "hands": "hands",
+          "alternateHands": "alternateHands"
+        },
+        "pencil": {
+          "headFrames": "nowPencilFrames",
+          "hands": "pencilHands",
+          "opacity": 1
+        },
+        "watercolor": {
+          "headFrames": "nowWatercolorFrames",
+          "hands": "watercolorHands",
+          "opacity": 0.96
+        }
+      },
+      "styles": [
+        "photos",
+        "pencil",
+        "watercolor"
+      ]
+    }
+  },
+  "nowSource": {
+    "filename": "IMG_5003.mov",
+    "sha256": "65d90de3c36e470e4e4e7c8bdce13f466fe00c71ef315c194c98fec41bc0155a",
+    "decodedSize": [
+      720,
+      1280
+    ],
+    "frameRate": "24000/1001",
+    "durationSeconds": 15.631667
+  },
+  "nowPencilFrames": [
+    {
+      "id": "upper-left",
+      "file": "now/pencil/head-upper-left.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-upper-left.png",
+      "source": "work/generative/now-pencil/upper-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        125,
+        66,
+        1079,
+        1308
+      ],
+      "scale": 0.5314009661835749,
+      "offset": [
+        66,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "up",
+      "file": "now/pencil/head-up.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-up.png",
+      "source": "work/generative/now-pencil/up.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        119,
+        69,
+        1007,
+        1322
+      ],
+      "scale": 0.5267358339984038,
+      "offset": [
+        86,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-right",
+      "file": "now/pencil/head-upper-right.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-upper-right.png",
+      "source": "work/generative/now-pencil/upper-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        97,
+        39,
+        1033,
+        1321
+      ],
+      "scale": 0.514820592823713,
+      "offset": [
+        79,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "left",
+      "file": "now/pencil/head-left.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-left.png",
+      "source": "work/generative/now-pencil/left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        143,
+        52,
+        1051,
+        1316
+      ],
+      "scale": 0.5221518987341772,
+      "offset": [
+        83,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "center",
+      "file": "now/pencil/head-center.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-center.png",
+      "source": "work/generative/now-pencil/center.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        133,
+        67,
+        990,
+        1322
+      ],
+      "scale": 0.5258964143426295,
+      "offset": [
+        94,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "right",
+      "file": "now/pencil/head-right.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-right.png",
+      "source": "work/generative/now-pencil/right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        111,
+        61,
+        1005,
+        1324
+      ],
+      "scale": 0.5225653206650831,
+      "offset": [
+        86,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-left",
+      "file": "now/pencil/head-lower-left.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-lower-left.png",
+      "source": "work/generative/now-pencil/lower-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        185,
+        60,
+        1028,
+        1358
+      ],
+      "scale": 0.5084745762711864,
+      "offset": [
+        105,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "down",
+      "file": "now/pencil/head-down.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-down.png",
+      "source": "work/generative/now-pencil/down.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        160,
+        64,
+        964,
+        1349
+      ],
+      "scale": 0.5136186770428015,
+      "offset": [
+        113,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-right",
+      "file": "now/pencil/head-lower-right.png",
+      "kind": "generated",
+      "style": "pencil",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-lower-right.png",
+      "source": "work/generative/now-pencil/lower-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        129,
+        32,
+        999,
+        1347
+      ],
+      "scale": 0.5019011406844106,
+      "offset": [
+        101,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    }
+  ],
+  "nowWatercolorFrames": [
+    {
+      "id": "upper-left",
+      "file": "now/watercolor/head-upper-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-upper-left.png",
+      "source": "work/generative/now-watercolor/upper-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        116,
+        43,
+        1082,
+        1299
+      ],
+      "scale": 0.5254777070063694,
+      "offset": [
+        66,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "up",
+      "file": "now/watercolor/head-up.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-up.png",
+      "source": "work/generative/now-watercolor/up.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        114,
+        66,
+        1060,
+        1341
+      ],
+      "scale": 0.5176470588235295,
+      "offset": [
+        75,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "upper-right",
+      "file": "now/watercolor/head-upper-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-upper-right.png",
+      "source": "work/generative/now-watercolor/upper-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        99,
+        36,
+        1002,
+        1289
+      ],
+      "scale": 0.5267358339984038,
+      "offset": [
+        82,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "left",
+      "file": "now/watercolor/head-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-left.png",
+      "source": "work/generative/now-watercolor/left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        127,
+        62,
+        1055,
+        1309
+      ],
+      "scale": 0.529270248596632,
+      "offset": [
+        74,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "center",
+      "file": "now/watercolor/head-center.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-center.png",
+      "source": "work/generative/now-watercolor/center.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        118,
+        34,
+        1005,
+        1335
+      ],
+      "scale": 0.5073020753266718,
+      "offset": [
+        95,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "right",
+      "file": "now/watercolor/head-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-right.png",
+      "source": "work/generative/now-watercolor/right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        93,
+        50,
+        1025,
+        1321
+      ],
+      "scale": 0.5192761605035405,
+      "offset": [
+        78,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-left",
+      "file": "now/watercolor/head-lower-left.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-lower-left.png",
+      "source": "work/generative/now-watercolor/lower-left.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        165,
+        41,
+        1015,
+        1349
+      ],
+      "scale": 0.5045871559633027,
+      "offset": [
+        105,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "down",
+      "file": "now/watercolor/head-down.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-down.png",
+      "source": "work/generative/now-watercolor/down.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        163,
+        54,
+        975,
+        1341
+      ],
+      "scale": 0.5128205128205128,
+      "offset": [
+        112,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    },
+    {
+      "id": "lower-right",
+      "file": "now/watercolor/head-lower-right.png",
+      "kind": "generated",
+      "style": "watercolor",
+      "reference": "IMG_5003.mov",
+      "poseReference": "assets/now/head-lower-right.png",
+      "source": "work/generative/now-watercolor/lower-right.png",
+      "canvas": [
+        640,
+        800
+      ],
+      "sourceBounds": [
+        132,
+        41,
+        1005,
+        1337
+      ],
+      "scale": 0.5092592592592593,
+      "offset": [
+        97,
+        60
+      ],
+      "featherPx": 1.5,
+      "alignment": "centered silhouette, chin baseline y=720"
+    }
+  ]
+}

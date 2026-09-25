@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+.venv/
+.tools/
+
+# Build output
+.next/
+dist/
+tsconfig.tsbuildinfo
+
+# Heavy working / generated directories
+work/
+output/
+
+# Personal source photos
+*.HEIC
+
+# Session/state files
+:memory:.ses
+*.ses
+
+# Env / secrets
+.env
+.env.*
